@@ -1,0 +1,18 @@
+{
+  "name": "backup-importer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "@northflank/js-client": "^0.7.17"
+  }
+}
